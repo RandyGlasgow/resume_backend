@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "linkedin_buttons",
+  "info": {
+    "name": "linkedIn Button",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

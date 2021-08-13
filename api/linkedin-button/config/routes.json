@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/linkedin-button",
+      "handler": "linkedin-button.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/linkedin-button",
+      "handler": "linkedin-button.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/linkedin-button",
+      "handler": "linkedin-button.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

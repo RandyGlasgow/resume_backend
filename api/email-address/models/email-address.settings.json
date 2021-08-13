@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "email_addresses",
+  "info": {
+    "name": "Email Address",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    }
+  }
+}

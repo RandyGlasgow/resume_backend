@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "git_hub_buttons",
+  "info": {
+    "name": "GitHub Button"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

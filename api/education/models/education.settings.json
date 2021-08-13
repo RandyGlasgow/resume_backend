@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "name": "Education"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "school": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "concentration": {
+      "type": "string"
+    },
+    "end": {
+      "type": "string"
+    }
+  }
+}

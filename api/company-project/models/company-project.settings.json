@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_projects",
+  "info": {
+    "name": "Company Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "text"
+    }
+  }
+}

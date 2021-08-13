@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/email-address",
+      "handler": "email-address.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/email-address",
+      "handler": "email-address.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/email-address",
+      "handler": "email-address.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

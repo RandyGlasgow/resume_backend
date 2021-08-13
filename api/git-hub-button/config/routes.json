@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/git-hub-button",
+      "handler": "git-hub-button.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/git-hub-button",
+      "handler": "git-hub-button.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/git-hub-button",
+      "handler": "git-hub-button.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
