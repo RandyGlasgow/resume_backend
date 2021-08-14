@@ -1,3 +1,3 @@
-# Strapi application
+# Resume backend
 
-A quick description of your strapi application
+This is the backend to my resume website.
