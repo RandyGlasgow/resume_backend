@@ -26,6 +26,11 @@
     },
     "company_projects": {
       "collection": "company-project"
+    },
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "required": true
     }
   }
 }

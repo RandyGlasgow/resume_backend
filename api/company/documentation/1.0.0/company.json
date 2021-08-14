@@ -516,7 +516,8 @@
     "schemas": {
       "Company": {
         "required": [
-          "id"
+          "id",
+          "order"
         ],
         "properties": {
           "id": {
@@ -568,6 +569,9 @@
               }
             }
           },
+          "order": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -575,6 +579,9 @@
         }
       },
       "NewCompany": {
+        "required": [
+          "order"
+        ],
         "properties": {
           "employer": {
             "type": "string"
@@ -593,6 +600,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "order": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
